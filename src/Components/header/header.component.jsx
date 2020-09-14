@@ -22,6 +22,7 @@ export default function Header({ currentUser }) {
             className="option"
             onClick={() => {
               auth.signOut();
+              alert("Signed Out Succfully");
             }}
           >
             SIGNOUT
